@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function secondMaxNO(arr) {
+            const sortedArr = arr.sort((a,b)=>b-a)
+            return sortedArr[1]
+        }
+        const array = [4,5,6,3,1,8,4,5,2,9];
+        console.log(secondMaxNO(array))
+    </script>
+</body>
+</html>
